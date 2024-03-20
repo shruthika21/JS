@@ -1,0 +1,35 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.game-area {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+
+.paddle {
+    position: absolute;
+    background-color: #fff;
+    width: 10px;
+    height: 80px;
+}
+
+#leftPaddle {
+    left: 10px;
+}
+
+#rightPaddle {
+    right: 10px;
+}
+
+.ball {
+    position: absolute;
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
